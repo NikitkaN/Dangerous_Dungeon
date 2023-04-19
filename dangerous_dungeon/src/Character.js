@@ -7,7 +7,7 @@ function Image() {
     const texture = useLoader(TextureLoader, Oko)
     return (
       <mesh>
-        <planeBufferGeometry attach="geometry" args={[125, 195]} />
+        <planeBufferGeometry attach="geometry" args={[125, 250]} />
         <meshBasicMaterial attach="material" map={texture} toneMapped={false} />
       </mesh>
     )
