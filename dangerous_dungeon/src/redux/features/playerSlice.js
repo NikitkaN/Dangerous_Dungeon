@@ -7,7 +7,8 @@ const initState = {
         damage: 0
     },
     inventory: {
-        torch: 3
+        torch: 3,
+        medkit: 2
     }
 }
 
